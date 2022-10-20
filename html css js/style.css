@@ -1,0 +1,28 @@
+#faslities img{
+  /* transform: scale(1); */
+  transition-duration: 0.5s;
+  box-shadow: 0px 5px 10px black;
+  filter: brightness(80%);
+}
+#faslities img:hover{
+    /* transform: scale(0.9); */
+    transition-duration: 0.5s;
+    filter: brightness(100%);
+}
+body{
+ 
+}
+::selection{
+    background-color:yellow;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+    
